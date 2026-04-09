@@ -1,0 +1,52 @@
+# dotfolders
+.*/
+
+# Shell dotfiles
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.ripgreprc
+.gitconfig
+.mcp.json
+
+# Backend
+/backend/.env
+/backend/.env.local
+/backend/vendor/
+/backend/node_modules/
+/backend/storage/
+/backend/bootstrap/cache/
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.vite/
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+*.tar.gz
+
+# Git internals (submodule artifacts)
+/HEAD
+/objects
+/refs
+/hooks
+/config
+.gitmodules
+
+# wsl fun
+*Zone.Identifier
