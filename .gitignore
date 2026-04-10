@@ -1,5 +1,6 @@
 # dotfolders
 .*/
+!.github/
 
 # Shell dotfiles
 .bash_profile
@@ -31,6 +32,7 @@
 *.swp
 *.swo
 *~
+!.gitignore
 
 # OS
 .DS_Store
